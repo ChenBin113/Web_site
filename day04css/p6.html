@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>背景样式</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+
+            /*设置背景颜色 只能设置颜色*/
+            /*background-color: red;*/
+
+
+            /*可以设置颜色 也可以设置图片*/
+            /*background: green;*/
+            background: url("./images/2018-03-16_214501.gif");
+
+            /*background-image 设置背景图片*/
+            /*background-image: url("./images/56fcd25dbb4a8.jpg");*/
+
+            /*设置图片大小*/
+            /*background-size: 100% 100%;*/
+
+            /*设置图片的位置 让图片向上移动或者向左移动是设置负值*/
+            /*background-position: -295px -328px;*/
+
+            /*设置图片是否重复background-repeat*/
+            background-repeat: no-repeat;
+
+            /*背景属性组合写法*/
+            background: url("./images/2018-03-16_214501.gif") no-repeat;
+            border: 2px dotted blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

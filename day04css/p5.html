@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阴影效果</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+
+            /*第一个第二个值：正值是右，下 负值是左，上*/
+            /*第三个值是模糊程度 第四个值是扩散范围*/
+            /*第五个值是颜色 第六个值是内阴影*/
+            /*box-shadow: -10px -10px 20px 20px blue inset;*/
+        }
+        .box:hover {
+            box-shadow: 10px 10px 20px 20px gray inset;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

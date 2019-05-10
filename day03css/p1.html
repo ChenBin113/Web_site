@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css的使用</title>
+
+<!--外链式 通过link标签引入css文件 要在head标签当中引入-->
+    <link rel="stylesheet" href="./p1.css">
+
+<!--内嵌式 是通过style标签来写css 也要写在head标签当中-->
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+    在css的三种使用方式中存在优先级问题 <br>
+    页面由上到下加载 一直在更新 因此最后加载的才是显示的颜色 <br>
+
+<!--内联式 同style属性来设置css的样式-->
+    <div style="width: 200px; height: 200px; background-color: green;"></div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子模型</title>
+    <style>
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background: gray;
+            border: 10px solid pink;
+            padding: 20px;
+            margin: 30px;
+            /*盒子实际大小是：
+            盒子的宽度 + padding左右内边距 + 左右边框
+            盒子的高度 + padding上下内边距 + 上下边框*/
+
+            /*解决padding和margin改变实际盒子大小的问题*/
+        }
+        .box2, .box3, .box4 {
+            width: 100px;
+            height: 100px;
+            background: green;
+            padding: 20px;
+        }
+        .box3 {
+            /*想改变元素距离内容的间距 但是不想改变盒子的大小
+            默认是以元素为边界 border-box是以border为边界*/
+            box-sizing: border-box;
+        }
+        .box4 {
+            margin: 40px;
+            padding: 20px;
+            border: 10px solid red;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+    <div class="box4">box4</div>
+</body>
+</html>

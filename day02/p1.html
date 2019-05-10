@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML常用的行级元素</title>
+</head>
+<body>
+<!--链接标签-->
+    <!--a标签
+        href属性 跟的是要跳转的网址
+        target属性 _blank 在新窗口打开跳转的页面-->
+    <a href="https://www.baidu.com">百度</a><br>
+
+    <!--路径问题 在实际开发当中建议使用相对路径 ./当前目录 ../上一级目录-->
+    <!--绝对路径 在Windows当中绝对路径的根是我们文件所在的盘符-->
+    <a href="./复习.html" target="_blank">跳转到本地的文件(复习.html)</a><br>
+
+<!--图像标签-->
+    <!--img标签 单标签
+        src 图片地址 网络资源 本地资源都可以
+        alt 用于图片加载失败的替代文字（必须存在）
+        title 鼠标悬停在图片上的提示信息（可写可不写）
+        width height 建议只设置一个属性 同时使用会使图片压缩变形-->
+    <img src="./images/56fcd25dbb4a8.jpg" width="600px" height="" alt="加载出错" title="女生的图片"><br>
+
+<!--文本标签-->
+    <!--加粗 b strong：具有强调意义
+        斜体 i em：具有强调意义-->
+    <b>src 图片地址 网络资源 本地资源都可以</b><br>
+    <i>src 图片地址 网络资源 本地资源都可以</i><br>
+    <strong>src 图片地址 网络资源 本地资源都可以</strong><br>
+    <em>src 图片地址 网络资源 本地资源都可以</em><br>
+
+<!--span 无语义的行级元素-->
+    <span style="color:red">width height</span>建议只设置一个属性 同时使用会使图片压缩变形
+
+<!--html当中的实体字符 &gl; 大于号 &lt; 小于号 &copy; &nbsp;-->
+    2 > 1 <br>
+    2 &gt; 1 <br>
+    1 &lt; 2 <br>
+    &copy; <br>
+    width height &nbsp; &nbsp; &nbsp; 建议只设置一个属性 同时使用会使图片压缩变形
+</body>
+</html>

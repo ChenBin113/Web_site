@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css外间距</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border: 5px solid yellow;
+        }
+        .item1 {
+            background: green;
+
+            /*设置item1的底部的外间距*/
+            margin-bottom: 20px
+        }
+        .item2 {
+            background: red;
+            /*margin 设置四个值的时候 顺序是 上 右 下 左*/
+            margin: -25px 20px -5px 40px;
+        }
+        .item3 {
+            background: blue;
+            /*margin使用技巧 让元素水平居中*/
+            /*auto 不能设置垂直居中*/
+            /*margin: 0 auto;*/
+        }
+    </style>
+</head>
+<body>
+    <!--外间距 是元素距离周围元素的间距-->
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item3"></div>
+</body>
+</html>
