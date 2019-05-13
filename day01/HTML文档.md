@@ -131,7 +131,7 @@ table常用属性
 - cellspacing   单元格和单元格之间的距离
 - rowspan       垂直合并（跨行显示）
 - colspan       水平合并（跨列显示）
-- anglin        内容水平对齐方式
+- align        内容水平对齐方式
 - valign        内容垂直对齐方式
 
 #### 无语义的块级元素 div
