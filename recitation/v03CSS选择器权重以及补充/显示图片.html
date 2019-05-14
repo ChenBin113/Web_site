@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>batman</title>
+    <style type="text/css">
+        a {
+            /*去掉下划线*/
+            text-decoration: none;
+            
+            /*默认是有下划线的*/
+            /*text-decoration: underline;*/
+            
+            /*上划线*/
+            /*text-decoration: overline;*/
+            
+            /*贯穿线*/
+            /*text-decoration: line-through;*/
+        }
+        a:link {
+            color: pink;
+        }
+        img {
+            display: none;
+        }
+        #m1, #h1 {
+            display: none;
+        }
+
+        /*伪类选择器 鼠标点击显示*/
+        /*a:active + img {*/
+        /*    display: block;*/
+        /*}*/
+
+        /*兄弟/相邻选择器 相邻作用 移动显示*/
+        /*#b1:hover + #m1 {*/
+        /*    display: block;*/
+        /*}*/
+
+        /*#z1:hover + #h1 {*/
+        /*    display: block;*/
+        /*}*/
+
+        /*匹配选择器 同级匹配即可*/
+        #b1:hover ~ #m1 {
+            color: green;
+            display: block;
+        }
+        #z1:hover ~ #h1 {
+            color: green;
+            display: block;
+        }
+
+        /*已经访问的链接*/
+        /*a:visited {*/
+        /*    color: red;*/
+        /*}*/
+    </style>
+</head>
+<body>
+    <a id="z1" href="">Batman</a>
+    <a id="b1" href="">YellowBatman</a>
+    <img id="m1" src="./batman.jpg" alt="">
+    <img id="h1" src="./yellowbatman.jpg" alt="">
+</body>
+</html>

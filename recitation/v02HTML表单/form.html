@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form表单</title>
+</head>
+<body>
+
+	<form action="http://goudan.com:5000/login" method="POST">
+
+		<!-- <label> 标签定义文本标注;type=text 普通文本-->
+
+		<p>
+			<label>用户名:</label><input type="text" name="username" value="李狗蛋">
+		</p>
+			<!-- type=password 密码输入框 -->
+		<p>
+			<label>密 码:</label><input type="password" name="password">
+		</p>
+			<!-- type=radio 定义单选框 -->
+		<p>
+			<label>性别:</label>
+			<label><input type="radio" name="sex" value="1">男</label>
+			<label><input type="radio" name="sex" value="0">女</label>
+
+		</p>
+		<!-- <textarea> 标签定义多行文本框-->
+		<p>
+			<label>说明:</label>
+			<textarea name="s"></textarea>	
+		</p>
+		<!-- checkbox 定义多选框 -->
+		<p>
+			<label>爱好:</label>
+			<label><input type="checkbox" name="like" value="eat">吃饭</label>
+			<label><input type="checkbox" name="like" value="sleep">睡觉</label>
+		</p>
+
+		<!-- <select>标签定义下拉选框 -->
+		<p>
+			<label>位置:</label>
+			<select name="seit">
+				<option value="0">北京</option>
+				<option value="1">上海</option>
+				<option value="2">广州</option>
+			</select>
+		</p>
+
+
+		<!-- type='submit' 定义提交按钮;type=reset 重置表单内容,回到初始状态 -->
+		<p>
+			<!-- <button>提交</button> form表单中的button具有提交功能 -->
+			<!-- <input type="submit" name="" value="注册">  -->
+			<input type="image" name="" value="提交">
+			<input type="reset" name="" value="重置">
+		</p>
+		
+		
+	</form>
+
+	<!--
+	url:https://www.baidu.com:80/s?tn=96030587_hao_pg&ie=utf-8&wd=%E7%BD%91%E6%98%93%E5%85%AC%E5%BC%80%E8%AF%BE
+
+	http:// --- 端口 80
+	https:// ---- 端口 443
+
+	服务器地址:www.baidu.com:80
+
+	/s : 文件路径
+
+	?xxx : 参数
+	 -->
+
+</body>
+</html>

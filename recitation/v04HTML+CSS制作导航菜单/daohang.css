@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*ul {*/
+/*    list-style: none;*/
+/*    background: lightblue;*/
+/*    width: 200px;*/
+/*    height: 390px;*/
+/*}*/
+/*li a {*/
+/*    text-decoration: none;*/
+/*    width: 200px;*/
+/*    display: block;*/
+/*}*/
+
+/*ul li {*/
+/*    line-height: 30px;*/
+/*    !*display: inline-block;*!*/
+/*}*/
+/*li a:hover {*/
+/*    background: red;*/
+/*}*/
+/*li a:active {*/
+/*    background: lawngreen;*/
+/*}*/
+ul {
+    list-style: none;
+    background: tan;
+    overflow: hidden;
+}
+ul li {
+    float: left;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 2px 5px;
+    text-align: center;
+}
+a:hover {
+    background: pink;
+}
+.so {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
