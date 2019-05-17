@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0 auto;
+}
+.daohang {
+    width: 80%;
+    height: 70px;
+    background: khaki;
+}
+
+/*中部*/
+.middle {
+    width: 80%;
+    height: 1000px;
+    background: palegreen;
+}
+
+/*文章栏*/
+.txt {
+    width: 70%;
+    height: 900px;
+    background: plum;
+    float: left;
+    margin: 5px 3px;
+}
+
+/*右侧栏*/
+.r_lan {
+    width: 29%;
+    height: 900px;
+    background: greenyellow;
+    float: left;
+    margin: 5px 3px;
+}
+
+/*博主*/
+.user_name {
+    width: 80%;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background: slateblue;
+}
+
+/*文章分类*/
+.text-c {
+    width: 80%;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background: seagreen;
+}
+
+/*阅读排行*/
+.top {
+    width: 80%;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background: pink;
+}
+
+
+
+/*网页底部*/
+.bt {
+    width: 80%;
+    height: 150px;
+    background: cyan;
+}
