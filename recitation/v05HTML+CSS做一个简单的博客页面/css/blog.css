@@ -6,33 +6,58 @@
 div {
     margin: 0 auto;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*导航菜单*/
 .daohang {
     width: 80%;
     height: 70px;
-    background: khaki;
+    /*background: khaki;*/
+}
+.top-menu li {
+    float: left;
+    line-height: 70px;
+    margin: 0 20px;
+    font-size: 28px;
 }
 
 /*中部*/
 .middle {
     width: 80%;
     height: 1000px;
-    background: palegreen;
+    /*background: palegreen;*/
 }
 
 /*文章栏*/
 .txt {
     width: 70%;
-    height: 900px;
-    background: plum;
+    height: 980px;
+    /*background: plum;*/
     float: left;
     margin: 5px 3px;
 }
 
+.txt ul li span {
+    font-weight: bold;
+    color: cyan;
+}
+
+.txt ul li {
+    display: block;
+    margin: 10px 10px;
+}
 /*右侧栏*/
 .r_lan {
     width: 29%;
-    height: 900px;
-    background: greenyellow;
+    height: 980px;
+    /*background: greenyellow;*/
     float: left;
     margin: 5px 3px;
 }
@@ -41,9 +66,9 @@ div {
 .user_name {
     width: 80%;
     height: 320px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     margin-top: 5px;
-    background: slateblue;
+    /*background: slateblue;*/
 }
 
 /*文章分类*/
@@ -52,23 +77,55 @@ div {
     height: 320px;
     margin: 0 auto;
     margin-top: 5px;
-    background: seagreen;
+    /*background: seagreen;*/
 }
 
+.text-c ul li {
+    display: block;
+    height: 70px;
+    width: 90%;
+}
+
+.text-c ul li h2 {
+    height: 70px;
+    text-align: center;
+    color: yellow;
+}
 /*阅读排行*/
 .top {
     width: 80%;
     height: 320px;
     margin: 0 auto;
     margin-top: 5px;
-    background: pink;
+    /*background: pink;*/
 }
-
-
+.top ul li {
+    line-height: 70px;
+    text-align: center;
+    color: yellow;
+}
+.top ul li a {
+    font-size: 30px;
+    font-weight: bold;
+    color: salmon;
+}
 
 /*网页底部*/
 .bt {
     width: 80%;
     height: 150px;
-    background: cyan;
+    /*background: cyan;*/
+}
+.bt ul li {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bt ul li a {
+    color: red;
+    line-height: 50px;
+}
+.bt ul li span {
+    line-height: 50px;
 }

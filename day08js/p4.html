@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运算符</title>
+</head>
+<body>
+    <script>
+        // ++ 自增一 结果赋值给自己
+        var a = 1;
+        a ++;
+        a += 1;
+        console.log(a);
+
+        // -- 自减一
+        a --;
+        console.log(a);
+
+        // + 字符串连接
+        // 当两边的值都为数值类型时做算术运算
+        // 当两边的值有一个为字符串的时候做字符串连接
+        console.log('字符串', '1' + 1);
+        console.log('数字', 1 + 1);
+
+        var str_1 = 1 + 1 + '2'; // 22
+        var str_2 = '1' + 1 + 2; // 112 注意一下两者的区别
+        console.log(str_1);
+        console.log(str_2);
+
+        // === 全等 限制两边的数据类型 除了值 还需要类型相同 !== 同理
+        // var B = 1 == 1; // true
+        // var B = 1 == '1'; // true 系统做了数据类型转换
+        // var B = 1 === 1; // true 系统做了数据类型转换
+        var B = 1 === '1'; // false 系统做了数据类型转换
+        console.log(B);
+
+        var money = prompt("请输入你所购买物品的金额()元");
+        var total = money * 0.8;
+        money = money >= 500 ? total : money;
+        document.write(money);
+    </script>
+</body>
+</html>
