@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变量作用域</title>
+</head>
+<body>
+<script>
+    /*
+    全局变量 在函数外部使用声明的变量是全局变量
+    全局变量在函数内部改变值之后 作用域是全局
+
+    局部变量 在函数内部声明的变量
+    局部变量和全局变量重名时 转化为局部变量 作用域是局部
+
+    在函数内部不使用var声明的变量是全局变量 严格模式是不可以不使用var声明的
+     */
+    var a = 1;
+    function demo() {
+        a = 6;
+        var a = 2;
+        b = 20;
+        console.log('in', a);
+    }
+    console.log('before', a);
+
+    demo();
+    console.log('after', a);
+    console.log('after', b);
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js当中的函数定义方法</title>
+</head>
+<body>
+<script>
+    // 调用函数 function定义的时候 系统有预编译 所以放置位置可以不用管
+    demo();
+
+    // 1.使用function关键字定义函数
+    // 这个方式优先级较高 在哪个位置去调用都没有问题
+    // 函数不调用不执行
+    function demo() {
+        alert('函数被调用了');
+    }
+
+    // 2.在表达式当中定义函数(匿名函数)
+    // 函数只能在函数体下方去调用
+    var set = function () {
+        alert('这是匿名函数');
+    };
+    console.log(set);
+    set();
+</script>
+</body>
+</html>

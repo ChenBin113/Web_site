@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js获取元素</title>
+    <style>
+        #item1 {
+            width: 300px;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<script>
+    window.onload = function () {
+        // 获取元素对象
+        var oDiv = document.getElementById('item1');
+        console.log(oDiv);
+
+        // js可以通过style属性来给元素设置样式
+        // 样式是加在行间的 js添加的样式优先级高(行间属性，离元素最近)
+        // 注意在设置样式的时候 双拼词 font-size 化为 fontSize
+        oDiv.style.width = '200px';
+        oDiv.style.height = '200px';
+        oDiv.style.background = 'red';
+        oDiv.style.fontSize = '30px';
+
+        // 通过js获取元素的样式 只能获取行间样式
+        console.log(oDiv.style.width);
+
+        // js操作元素的文本内容
+        // innerHTML 一般用来设置内容 可以解析标签 获取内容连同标签一起获取
+        // innerText 一般只用来获取内容 不可以解析标签 获取文本不能获取标签
+        // 注意会覆盖原来的内容 123 -> 222
+        oDiv.innerHTML = '<h1>222</h1>';
+        // oDiv.innerText = '<h1>222</h1>';
+        console.log(oDiv.innerHTML);
+        console.log(oDiv.innerText);
+
+        // 表单值的操作
+        // 通过id获取表单元素对象
+        vl = document.getElementById('uname');
+        console.log(vl);
+        // 获取表单的值
+        console.log(vl.value);
+        // 设置表单的值 格式：元素对象.value = '要设置的值'
+        vl.value = '999';
+    }
+</script>
+<div id="item1" style="">123</div>
+<input type="text" value="123" name="username" id="uname">
+</body>
+</html>
