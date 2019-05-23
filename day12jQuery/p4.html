@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>类名的操作</title>
+    <script src="./jquery-1.8.3.min.js"></script>
+    <style>
+        .item1 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+        }
+        .item2 {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<script>
+    // 通过jQuery给元素添加、删除样式属性
+    // 删除时不指定类名，默认删除所有类名
+    $('div').addClass('item1 item2');
+    $('div').removeClass('item2');
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegExp</title>
+</head>
+<body>
+<script type="text/javascript">
+    // var str = "\r AWM \n!def0abc127389";
+    var str = "caaaa+\n\tbbbcc";
+
+    // 定义正则表达式
+    // 方式一
+    // var re = new RegExp("a");
+    // 方式二
+    // var reg = /w/;
+
+    // []中括号指定查找的范围
+    // var re = /[0-9]/; // 匹配0-9范围内任意字符
+    // var re = /[a-z]/; // 匹配a-z范围内任意字符
+
+    // 元字符 (拥有特殊含义的字符)
+    // var re = /./; // 匹配除换行符和结束符以外的任意字符
+    // var re = /\w/; // 匹配单个数字、字母、下划线字符
+    // var re = /\W/; // 匹配单个非数字、字母、下划线字符
+    // var re = /\d/; // 匹配单个数字
+    // var re = /\D/; // 匹配单一非数字
+    // var re = /\s/; // 匹配空格、\r、\n、\t
+    // var re = /\S/; // 匹配非空格、\r、\n、\t
+
+    // 量词
+    // var re = /\d{2,3}/; // 匹配指定数量个字符
+    // var re = /\w+/; // 匹配一个或多个
+    // var re = /ca*/;
+    // var re = /.*/; // 匹配所有 贪婪 原样输出差不多 遇到\n类型停止提配
+    // var re = /.*?/; // 匹配0次 非贪婪模式
+    // var re = /\w+?/; // 匹配1次 非贪婪
+    // var re = /^c\w+/; // 指定以某字符开头
+    var re = /(\w+)c$/; // 匹配以某指定字符结尾
+
+    // 返回匹配到的字符组成的数组
+    var req = re.exec(str);
+    // 返回布尔值
+    var req2 = re.test(str);
+    console.log(req, req2);
+</script>
+</body>
+</html>

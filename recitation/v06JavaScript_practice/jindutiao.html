@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>进度条</title>
+    <style type="text/css">
+        #out {
+            width: 400px;
+            height: 40px;
+            border: 1px solid red;
+            margin: 200px auto;
+        }
+        #ins {
+            width: 0;
+            height: 40px;
+            background: green;
+            text-align: right;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!--外部管道-->
+    <div id="out">
+        <!--内部填充物-->
+        <div id="ins">
+        </div>
+    </div>
+
+    <!--JavaScript特效-->
+    <script type="text/javascript">
+        var out = document.getElementById('out');
+        var ins = document.getElementById('ins');
+
+        var step = 1;
+        var into = setInterval(function () {
+            // 获取宽度
+            var w = ins.offsetWidth;
+            // 获取添加后的宽度
+            var nw = w + step;
+
+            // 获取所占的百分比
+            var bai = nw / out.offsetWidth;
+
+            ins.innerHTML = Math.floor(bai * 100) + '%';
+
+            if (nw >= out.offsetWidth) {
+                clearInterval(into);
+            }
+            ins.style.width = nw + 'px';
+        }, 50);
+    </script>
+</body>
+</html>
