@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件绑定</title>
+    <script src="./jquery-1.8.3.min.js"></script>
+    <style>
+        #item1 {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<script>
+    console.log($('#item1'));
+    $('#item1').click(function () {
+        console.log('事件绑定成功');
+    });
+
+    // 上述代码不生效 由于HTML是由上至下加载 获取元素的时候还没有加载
+    // 当页面加载完成之后触发ready
+    $('document').ready(function () {
+        console.log($('#item1'));
+    });
+
+    // 当文档加载之后自动调用自己
+    $(function(){
+        console.log($('#item1'));
+
+    });
+</script>
+<div id="item1"></div>
+<script>
+    // 基本绑定
+    // $('#item1').click(function () {
+    //     console.log('基本的事件绑定方法');
+    // })
+
+    // 双击事件
+    $('#item1').dblclick(function(){
+        console.log('这是双击事件');
+    });
+
+    // bind 方法绑定
+    $('#item1').bind('click', function () {
+        console.log('bind绑定方法');
+
+    });
+
+// 解除事件绑定
+    // 注意 如果不指定解除的事件
+    // 那么就会解除元素上的所有事件
+    // 如要解除指定的事件那就给他传指定事件的参数
+    $('#item1').unbind('dblclick');
+</script>
+</body>
+</html>
