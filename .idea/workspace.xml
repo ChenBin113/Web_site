@@ -14,32 +14,22 @@
     <favorites_list name="Web前端网页工程师" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day14jQuery/事件.md">
+        <entry file="file://$PROJECT_DIR$/day15jQuery/jquery元素节点操作.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
-              <first_editor relative-caret-position="-945" />
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day14jQuery/p8.html">
+        <entry file="file://$PROJECT_DIR$/day15jQuery/p2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day13jQuery/相关尺寸.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+            <state relative-caret-position="227">
+              <caret line="89" column="41" lean-forward="true" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -60,17 +50,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/recitation/v06JavaScript_practice/js_lx.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/recitation/v07JavaScript_practice2/qiu.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/day01/p2.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/day11js/p2.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/day10js/p2.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/day11js/p1.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/day01/p2.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/recitation/v07JavaScript_practice2/qiu.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day08js/p1.html" />
-        <option value="$PROJECT_DIR$/day08js/p2.html" />
         <option value="$PROJECT_DIR$/day08js/p3.html" />
         <option value="$PROJECT_DIR$/day08js/p4.html" />
         <option value="$PROJECT_DIR$/day09js/p1.html" />
@@ -120,13 +108,15 @@
         <option value="$PROJECT_DIR$/day14jQuery/p6.html" />
         <option value="$PROJECT_DIR$/day14jQuery/p7.html" />
         <option value="$PROJECT_DIR$/day14jQuery/p8.html" />
+        <option value="$PROJECT_DIR$/day15jQuery/p1.html" />
+        <option value="$PROJECT_DIR$/day15jQuery/p2.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -135,56 +125,17 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="7【Web前端】网页工程师" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7【Web前端】网页工程师" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7【Web前端】网页工程师" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7【Web前端】网页工程师" type="462c0819:PsiDirectoryNode" />
-              <item name="day10js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7【Web前端】网页工程师" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7【Web前端】网页工程师" type="462c0819:PsiDirectoryNode" />
-              <item name="day11js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7【Web前端】网页工程师" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7【Web前端】网页工程师" type="462c0819:PsiDirectoryNode" />
-              <item name="day12jQuery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7【Web前端】网页工程师" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7【Web前端】网页工程师" type="462c0819:PsiDirectoryNode" />
-              <item name="day12jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7【Web前端】网页工程师" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7【Web前端】网页工程师" type="462c0819:PsiDirectoryNode" />
-              <item name="day13jQuery" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/recitation/v09JavaScript_practice4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -310,7 +261,10 @@
       <workItem from="1558524029177" duration="5788000" />
       <workItem from="1558535789231" duration="2000" />
       <workItem from="1558592857994" duration="6208000" />
-      <workItem from="1558681270395" duration="12827000" />
+      <workItem from="1558681270395" duration="12936000" />
+      <workItem from="1558752038460" duration="3978000" />
+      <workItem from="1558862715238" duration="74000" />
+      <workItem from="1558871512479" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="Add by ChenBin113, add Js part">
       <created>1558281526147</created>
@@ -319,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558281526148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add by ChenBin113, add jQuery part">
+      <created>1558705357921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558705357921</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168035000" />
+    <option name="totallyTimeSpent" value="172223000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,10 +296,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49730313" weight="0.22146119" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49730313" weight="0.50865054" />
       <window_info id="Favorites" order="1" sideWeight="0.5026969" side_tool="true" weight="0.1468085" />
       <window_info id="Structure" order="2" weight="0.29452056" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,7 +354,8 @@
       <path value="/usr/bin/git/" />
     </ignored-roots>
     <MESSAGE value="Add by ChenBin113, add Js part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add by ChenBin113, add Js part" />
+    <MESSAGE value="Add by ChenBin113, add jQuery part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add by ChenBin113, add jQuery part" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/7Web$1.coverage" NAME="1 Coverage Results" MODIFIED="1557747150403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recitation/v02HTML表单" />
@@ -401,32 +363,6 @@
     <SUITE FILE_PATH="coverage/7Web$form.coverage" NAME="form Coverage Results" MODIFIED="1557749413966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recitation/v02HTML表单" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day06css/浮动,定位.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07js/JavaScript.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="32">
-            <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07js/页面布局.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day08js/js数据类型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -745,6 +681,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day14jQuery/p8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day13jQuery/相关尺寸.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -756,15 +699,30 @@
     <entry file="file://$PROJECT_DIR$/day14jQuery/事件.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
-          <first_editor relative-caret-position="-945" />
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day14jQuery/p8.html">
+    <entry file="file://$PROJECT_DIR$/day15jQuery/p1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        <state relative-caret-position="162">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15jQuery/jquery元素节点操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15jQuery/p2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="89" column="41" lean-forward="true" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
         </state>
       </provider>
     </entry>
